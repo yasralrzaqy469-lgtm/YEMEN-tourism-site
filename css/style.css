@@ -1,0 +1,157 @@
+*{
+    padding:0;
+    margin:0;
+    font-family:sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    /*background-color:lightseagreen ;*/
+    display:flex;
+    flex-direction: column;
+    height: fit-content;
+    width: 100%;
+    position: absolute;
+    color: #f49c2f;
+
+  max-width: 100%;
+  overflow-x: hidden;
+
+
+
+}
+
+header{
+    display: flex;
+  background-color: #4e4d4d;
+    height: 5%;
+    text-align: center;
+
+ justify-content:space-evenly;
+}
+.logo{
+    margin: 15px 0 10px 0;
+}
+
+
+
+nav{
+
+
+    padding: 5px 0;
+    background-color: #6e6a6a;
+    width: 100%;
+    display: flex;
+      justify-content:flex-end;
+}
+nav ul{
+    display: flex;
+    flex-direction: row-reverse;
+       width: 60%;
+    /*background-color: blueviolet;*/
+      justify-content:space-evenly;
+    list-style-type: none;
+
+}
+li a{
+    text-decoration: none;
+    color: #fba233;
+}
+
+li a:hover{
+ text-decoration: slategray underline;
+    color: darkorange;
+}
+.main1{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #575453;
+}
+.main{
+    border: #100f0f solid 1px;
+    border-radius: 10px;
+    width: 80%;
+    height: fit-content;
+    background-color: #a8abac;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    box-shadow: 1px 1px 25px rgba(239, 168, 68, 0.82);
+
+
+}
+
+.sec2{
+   display: flex;
+    /*background-color: #c55e5e;*/
+      width: 100%;
+    height: auto;
+
+/*border: solid 1px #30a8a4;*/
+/*    border-radius: 20px;*/
+}
+
+.wowslider-container1{
+    border: solid 1px #30a8a4;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+
+
+.sec1{
+    direction: rtl;
+   /*display: flex;*/
+   /* background-color: #5183d1;*/
+   width: 100%;
+    height: fit-content;
+    overflow: auto;
+    font-size: 20px;
+    padding: 5px 10px;
+    /*border: solid 1px #30a8a4;*/
+    /*border-radius: 20px;*/
+    color: #101415;
+}
+
+.sec1 h1{
+    margin: 10px 0 20px ;
+}
+
+
+
+
+
+footer{
+    text-align: center;
+  background-color: #4e4d4d;
+     height: 5%;
+    width:100% ;
+      /*margin-top: 20px;*/
+    padding: 7px 0;
+
+}
+.main{
+
+
+}
+
+/*@media (max-width: 1447px) {*/
+
+/*  .main{*/
+/*      background-color: #42cdf1;*/
+/*       display:flex;*/
+/*    flex-direction: column-reverse;*/
+/*    height: 100vh;*/
+/*    width: 100%;*/
+/*    position: absolute;*/
+/*    color: #f49c2f;*/
+/*  }*/
+/*}*/
+
+
+
+
+
